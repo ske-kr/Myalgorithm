@@ -303,7 +303,7 @@ if __name__ == "__main__":
     
     print("choose sorting algorithm:")
     sorting = input()
-    print("do you have an input array?")
+    print("do you have an input array? (y/n)")
     answer = input()
     if answer == "y" :
         print("your data:")
