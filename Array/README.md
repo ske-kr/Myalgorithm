@@ -1,7 +1,9 @@
 greedy part, 기본 입출력 format 및 mapping 습관들이기
 
-중요 !
 
+
+중요 !
+## list reference 관련 문제
 a = b
 둘다 리스트 일시 복사가 아닌 *a=&b가 되어서 (즉 참조가 되어서 )
 
@@ -14,6 +16,7 @@ a = b
 3. slicing  => a=b[:]
 
 
+## sort by key
 list sort의 key값 설정하기
 
 주로 2d list에 활용된다.
@@ -28,7 +31,7 @@ a.sort(key=lambda x : x[1])
 a는 [[1,1],[1,2],[1,3]]으로 정렬된다
 
 
-python set
+## set method
 
 set은 중복을 고려하지 않고 순서가 없이 데이터를 정렬
 [1,1,1,2,2,2,3,3,3]을 set시키면
@@ -39,7 +42,22 @@ set(a)={1,2,3}이 된다..
 합집합 a | b
 차집합 a - b
 
-python dic
+## dictionary
 
 if dic.get(a) is None:
 a가 dic에 없다면
+
+
+## slicing
+
+슬라이싱은 아주 강력한 툴이다
+
+[start:end:step]
+
+start:시작지점
+end : 도착지점
+step : 어떤방식으로 읽을지(default=1)
+step이 -1이라면 거꾸로 읽는다
+예를들어
+a[::-1]의 경우엔 리스트를 뒤집게 만드는 것이고
+reverse()메소드와 동일한 역할을 할것이다.
