@@ -1,7 +1,6 @@
 # Myalgorithm
 
-코드업 100제 - 백준 그리디,탐색,동적프로그래밍 50씩
-
+자주하는 실수
 
 import sys
 input = sys.stdin.readline
