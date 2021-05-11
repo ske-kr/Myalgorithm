@@ -14,7 +14,7 @@ deque를 사용하고
 
 stack은 list를 사용해도 된다(별차이안남 오히려 list가 좀더빠름).
 
-
+## heapq
 import heapq
 
 
@@ -33,7 +33,7 @@ heapq.heappush(a,data)
 
 
 (-data,data를 집어넣을수도 있다는 뜻이다)
-#heap의 이상적 사용
-#heap은 내부적으로 가장 작은 값이 0 index에 존재하는 트리구조고
-# 여기서 -값을 tuple로 넣어준 이유는 당근빳다
-# max heap을 만들어주기 위해서 그렇다.(즉 0 index에 최대값이 존재하게 하려고)
+heap의 이상적 사용
+heap은 내부적으로 가장 작은 값이 0 index에 존재하는 트리구조고
+ 여기서 -값을 tuple로 넣어준 이유는 당근빳다
+ max heap을 만들어주기 위해서 그렇다.(즉 0 index에 최대값이 존재하게 하려고)
