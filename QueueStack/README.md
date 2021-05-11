@@ -1,3 +1,5 @@
+
+
 from collections import deque
 
 d=deque() 형식으로 선언한다
