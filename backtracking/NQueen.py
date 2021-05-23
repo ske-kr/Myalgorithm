@@ -9,7 +9,7 @@
 
 
 n = int(input())
-s = [0 for i in range(16)]
+s = [0 for i in range(n)]
 result = 0
 def isTrue(x):
     for i in range(1, x):
