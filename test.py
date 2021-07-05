@@ -1,5 +1,5 @@
-dic={1:1,2:2,3:3}
+a = [(4,0), (4,3), (4,2), (3,2), (2,1), (1,0)]
 
-print(list(dic.keys()))
+a=sorted(a)
 
-list(dic.keys()).sort()
+print(a)

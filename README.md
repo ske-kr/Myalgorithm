@@ -1,6 +1,6 @@
 # Myalgorithm
 
-자주하는 실수
+자주하는 실수 - 백준
 
 import sys
 input = sys.stdin.readline
