@@ -1,2 +1,7 @@
-for i in range(4,1,-1):
-    print(i)
+a=1
+
+print(id(a))
+
+a+=1
+
+print(id(a))
