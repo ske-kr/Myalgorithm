@@ -11,3 +11,11 @@ input = sys.stdin.readline
 
 꼭 써야한다면 특히 append와 del,pop을 사용한다면
 deque를 선언해서 사용하자
+
+
+
+# 면접
+
+그래프, indexing
+
+db관련 코스트나 효율성
