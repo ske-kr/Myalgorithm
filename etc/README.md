@@ -10,3 +10,7 @@ number=list(map(int,re.split('[-]',s)))
 subscriptable한점에서는 다르다.
 list는 subscriptable하지만 (그렇다는 것은 []를 이용한 indexing slicing이 된다)
 map은 그렇지 않기 때문에 []를 이용하려면 list화 시켜줘야한다!
+
+
+#trie 구조 설명
+http://cd4761.blogspot.com/2017/02/trie-1.html
