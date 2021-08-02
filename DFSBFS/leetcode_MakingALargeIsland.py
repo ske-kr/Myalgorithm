@@ -2,7 +2,7 @@
 #답지도 거의 동일한 방식 코스트도 비슷하다. 상위 답안지를 비교해볼 필요가 있음
 
 class Solution:
-    def largestIsland(self, grid: List[List[int]]) -> int:
+    def largestIsland(self, grid) -> int:
         Landsize=[0]
         v=[[False]*len(grid[0]) for _ in range(len(grid))]
         direction=[[0,-1],[-1,0],[1,0],[0,1]]
