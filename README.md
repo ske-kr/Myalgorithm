@@ -19,3 +19,13 @@ deque를 선언해서 사용하자
 그래프, indexing
 
 db관련 코스트나 효율성
+
+
+# Python 
+
+https://wikidocs.net/16050
+24 - 문서화
+25 - shebang
+27 - 함수의 인자
+28 - 파이썬의 타입시스템
+29 - 변수 scope (특히 4번)
