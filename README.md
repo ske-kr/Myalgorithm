@@ -29,3 +29,5 @@ https://wikidocs.net/16050
 27 - 함수의 인자
 28 - 파이썬의 타입시스템
 29 - 변수 scope (특히 4번)
+31 - exception
+38&39 - iterator, generator
