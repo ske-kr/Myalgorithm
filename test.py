@@ -81,3 +81,9 @@ def Problem3(s):
     # so we can add partition between them. same for thirdstart
     
     return int(((secondstart+1)*(thirdstart+1))%MOD)
+
+
+
+a=1
+b=a
+print(id(a),id(b))
