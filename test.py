@@ -84,6 +84,6 @@ def Problem3(s):
 
 
 
-a=1
-b=a
-print(id(a),id(b))
+a="myname is {}"
+print(a)
+print(a.format("kwangeun"))
