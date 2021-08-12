@@ -175,3 +175,36 @@ print(izip(a,b))
 => ((1,A),(2,B),(3,C))
 
 list화 시켜서 활용하도록 하자
+
+## SQL
+
+처리순서 - logic을 이해해볼것
+1) FROM
+2) ON
+3) JOIN
+4) WHERE
+5) GROUP BY
+6) WITH CUBE 또는 WITH ROLLUP
+7) HAVING
+8) SELECT
+9) DISTINCT
+10) ORDER BY - DESC를 통해 역순가능
+11) TOP
+
+예약어에 대한 대소문자는 따로 구분하지 않음 - 통상적으로 대문자로 나타내는것 같음
+equal(등호)는 =를 하나만 사용해서 나타낸다.
+
+https://psun.tistory.com/entry/SQL-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC
+문법 참고용
+
+- NULL 체크
+
+1) SELECT명령어 IFNULL활용, IFNULL(column, 대체 data)
+2)-oracle WHERE명령어 NVL 활용,   NVL(column, 대체data) 주로 대체 data에 0을 넣고 =0으로 찾는경우가많다.
+2)-mysql WHERE명령어 IS NULL 활용 
+추가로 IS NULL같은경우 case나 if와 활용해서 IFNULL을 대체할수 있으므로 활용도를 높여보자
+
+- JOIN 
+
+https://pearlluck.tistory.com/46
+
