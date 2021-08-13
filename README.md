@@ -185,7 +185,7 @@ list화 시켜서 활용하도록 하자
 4) WHERE
 5) GROUP BY
 6) WITH CUBE 또는 WITH ROLLUP
-7) HAVING
+7) HAVING - GROUP절의 조건절
 8) SELECT
 9) DISTINCT
 10) ORDER BY - DESC를 통해 역순가능
