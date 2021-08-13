@@ -208,3 +208,5 @@ https://psun.tistory.com/entry/SQL-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC
 
 https://pearlluck.tistory.com/46
 
+- 서브쿼리
+
