@@ -8,3 +8,12 @@ SELECT Min(DATETIME) as '시간'
 FROM ANIMAL_INS
 
 -- Min, Max 등을 select조건절에 활용할 수 있다. 그외 count, sum 등이 있다
+
+SELECT HOUR(DATETIME) as HOUR,COUNT(*) as COUNT
+FROM ANIMAL_OUTS
+WHERE HOUR(DATETIME)>=9 and HOUR(DATETIME) < 20
+GROUP BY HOUR(DATETIME)
+ORDER BY HOUR(DATETIME)
+
+-- 알고보니 HOUR같은것도 있었다.. SET 명령어를 활용한 변수를 이용한 그룹화는 아래예시와 같이 활용가능하다
+
