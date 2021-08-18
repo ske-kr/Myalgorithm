@@ -27,3 +27,11 @@ ORDER BY DATETIME LIMIT 3
 
 -- left, right, inner join 모두 on id=id형태를 기억하도록 하자!
 -- 여기서 처음보는 것은 LIMIT 3이라는 조건절이고 이는 정렬 후 상위 3개 값만 추출한다는 것이다.
+
+SELECT INS.ANIMAL_ID, INS.NAME
+FROM ANIMAL_INS INS
+JOIN ANIMAL_OUTS OUTS
+ON INS.ANIMAL_ID = OUTS.ANIMAL_ID 
+ORDER BY Date(OUTS.DATETIME)-DATE(INS.DATETIME) DESC LIMIT 2;
+
+-- DATE는 날짜만 추출해준다.

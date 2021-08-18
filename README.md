@@ -180,7 +180,7 @@ list화 시켜서 활용하도록 하자
 
 처리순서 - logic을 이해해볼것
 1) FROM
-2) ON
+2) ON - JOIN의 조건절
 3) JOIN
 4) WHERE
 5) GROUP BY
