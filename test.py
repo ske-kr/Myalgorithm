@@ -82,10 +82,8 @@ def Problem3(s):
     
     return int(((secondstart+1)*(thirdstart+1))%MOD)
 
-a=[1,2,3]
-
-if x:=len(a) == 3 : 
-    print('done')
+a=1
+print(a//3)
 
 
 def solution(csv_string, keyword):
